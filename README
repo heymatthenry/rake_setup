@@ -1,0 +1,13 @@
+==setup.rake
+
+This is a simple rake task to install whatever plugins you most frequently use in your rails apps.
+So far, it just installs shoulda and some other plugins related to shoulda.
+
+=Usage
+
+Copy the setup.rake file to the lib/tasks directory of your rails app. You should then be able to 
+run any tasks in the file from the root directory of your app.
+
+=Included tasks
+
+setup:plugins:shoulda   Install Shoulda, shoulda_generator, and Factory Girl
