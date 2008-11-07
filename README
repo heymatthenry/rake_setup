@@ -10,4 +10,7 @@ run any tasks in the file from the root directory of your app.
 
 =Included tasks
 
-setup:plugins:shoulda   Install Shoulda, shoulda_generator, and Factory Girl
+rake setup:plugins:all           # Run all plugin tasks
+rake setup:plugins:jrails        # Install jRails
+rake setup:plugins:restful_auth  # Install RESTful Authentication
+rake setup:plugins:shoulda       # Install Shoulda, shoulda_generator, and Factory Girl
