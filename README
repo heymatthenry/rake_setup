@@ -1,7 +1,7 @@
 ==setup.rake
 
-This is a simple rake task to install whatever plugins you most frequently use in your rails apps.
-So far, it just installs shoulda and some other plugins related to shoulda.
+This is a simple rake task to do some basic setup of your rails apps.
+So far, it just installs a bunch of plugins.
 
 =Usage
 
